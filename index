@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ben Do – iOS Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+      line-height: 1.5;
+      color: #111827;
+      background: #f9fafb;
+    }
+    h1, h2 {
+      margin-bottom: 0.25rem;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 0.25rem;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #374151;
+    }
+    .subtle {
+      color: #4b5563;
+      font-size: 0.95rem;
+    }
+    .section {
+      margin-top: 1rem;
+    }
+    ul {
+      padding-left: 1.1rem;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .header-links {
+      margin-top: 0.25rem;
+      font-size: 0.95rem;
+    }
+    .job-title {
+      font-weight: 600;
+    }
+    .job-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+    @media (max-width: 600px) {
+      .job-meta {
+        flex-direction: column;
+        gap: 2px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ben Do</h1>
+    <div class="subtle">
+      Vernon Hills, IL · <a href="mailto:bdo.appworkshop@gmail.com">bdo.appworkshop@gmail.com</a> · 224-637-5624
+    </div>
+    <div class="header-links">
+      <a href="https://github.com/BDoGG12" target="_blank">GitHub</a> ·
+      <a href="https://www.linkedin.com/in/ben-do-99b433129/" target="_blank">LinkedIn</a> ·
+      <a href="https://apps.apple.com" target="_blank">App Store (coming soon)</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2>Summary</h2>
+    <p>
+      iOS Developer with 3+ years of experience building and shipping production-grade Swift and SwiftUI apps.
+      Led development of a high-scale video meeting feature supporting 7,000+ concurrent users at Windstream.
+      Comfortable with MVVM, Combine, async/await, StoreKit/RevenueCat, and integrating third-party APIs.
+      Passionate about crafting clean, user-focused mobile experiences and shipping indie apps.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Skills</h2>
+    <p><strong>iOS:</strong> Swift, SwiftUI, UIKit, Combine, MVVM, Coordinators, async/await, AVFoundation, StoreKit, RevenueCat, CoreData, APNs, XCTest</p>
+    <p><strong>Tools:</strong> Xcode, TestFlight, Firebase, Supabase, Git, GitHub, CI/CD</p>
+    <p><strong>Backend:</strong> Node.js, Express.js, PostgreSQL, MongoDB</p>
+    <p><strong>Frontend (Secondary):</strong> React, React Native, Next.js</p>
+  </section>
+
+  <section class="section">
+    <h2>Projects</h2>
+
+    <div>
+      <div class="job-meta">
+        <span class="job-title">TempScale – iOS Temperature Converter (SwiftUI)</span>
+        <span>2025</span>
+      </div>
+      <ul>
+        <li>Built a lightweight SwiftUI app to convert between Celsius, Fahrenheit, and Kelvin with a clean, responsive UI.</li>
+        <li>Implemented MVVM architecture and unit-tested conversion logic for accuracy and maintainability.</li>
+        <li>Published as an indie iOS app and hosted project source & documentation on GitHub.</li>
+      </ul>
+      <div class="subtle">
+        App: <a href="YOUR_APP_STORE_LINK_HERE" target="_blank">View on the App Store</a> ·
+        Code: <a href="YOUR_GITHUB_REPO_LINK_HERE" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Professional Experience</h2>
+
+    <div>
+      <div class="job-meta">
+        <span class="job-title">Lead iOS Developer · Windstream Inc.</span>
+        <span>Mar 2022 – May 2024</span>
+      </div>
+      <ul>
+        <li>Led development of a real-time video meeting feature supporting 7,000+ concurrent iOS users using AVFoundation and optimized streaming pipelines.</li>
+        <li>Integrated Utopia API and modernized networking with async/await, reducing load times by 30% and improving app security.</li>
+        <li>Built VOIP &amp; SMS contact-sync features using Microsoft and Google APIs, streamlining communication workflows.</li>
+        <li>Implemented a unified multi-source contact sorting system that reduced search time by 25% based on user feedback.</li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="job-meta">
+        <span class="job-title">Independent iOS Developer · Self-Employed</span>
+        <span>2024 – Present</span>
+      </div>
+      <ul>
+        <li>Ship SwiftUI apps using MVVM, Combine, and async/await, including subscription-based projects.</li>
+        <li>Built a sports livestreaming prototype using Supabase for real-time updates and secure authentication.</li>
+        <li>Implemented in-app subscription gating and premium tiers using StoreKit and RevenueCat.</li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="job-meta">
+        <span class="job-title">Lead Mobile App Developer · Pyle Technologies</span>
+        <span>2023</span>
+      </div>
+      <ul>
+        <li>Architected a cross-platform React Native app to track gift card balances and expiration dates.</li>
+        <li>Improved user engagement by 40% during beta and increased tracked gift card usage by 30%.</li>
+        <li>Reduced development time by 40% by choosing an efficient cross-platform strategy.</li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="job-meta">
+        <span class="job-title">iOS Engineer (Volunteer) · FightPandemics</span>
+        <span>Dec 2020 – Apr 2021</span>
+      </div>
+      <ul>
+        <li>Developed chat feature prototypes on iOS using Socket.io-client.</li>
+        <li>Implemented notification logic adapted from an existing web codebase.</li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="job-meta">
+        <span class="job-title">Derivatives Analyst (Contract) · Northern Trust</span>
+        <span>Jun 2019 – Nov 2019</span>
+      </div>
+      <ul>
+        <li>Reconciled derivatives statements and prepared monthly adjustment reports for brokers and clients.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Education</h2>
+    <p><strong>University of Illinois at Chicago (UIC)</strong><br/>
+       B.S. in Information and Decision Sciences
+    </p>
+  </section>
+
+</body>
+</html>
